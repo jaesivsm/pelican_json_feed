@@ -10,7 +10,7 @@ from __future__ import unicode_literals
 
 import json
 from datetime import datetime
-from jinja2 import Markup
+from markupsafe import Markup
 from operator import attrgetter
 from pelican import signals, generators, writers
 
